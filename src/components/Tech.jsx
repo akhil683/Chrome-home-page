@@ -44,13 +44,13 @@ const Tech = () => {
     },
   ]
   return (
-    <section className="bg-mblack m-6 mt-0 p-6 rounded-3xl lg:min-w-[600px] w-full">
-      <h2 className="text-violet-600 font-semibold text-4xl pb-8">Technology</h2>
+    <section className="bg-mblack m-6 mt-0 p-6 rounded-3xl">
+      <h2 className="text-violet-600 font-semibold text-2xl pb-8">Technology</h2>
       <div className=" grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-6">
         { Tech.map((app) => (
               <a 
                 key={app.name}
-                className="bg-lblack p-main text-center rounded-3xl text-slate-300 tracking-wide  duration-300 hover:bg-violet-800 font-semibold text-lg md:text-xl lg:text-2xl" 
+                className="bg-lblack p-main text-center rounded-3xl text-gray-300 tracking-wide  duration-300 hover:bg-violet-800 hover:text-gray-200 text-base md:text-md lg:text-lg" 
                 href={app.url}>
                   {app.name}
               </a>

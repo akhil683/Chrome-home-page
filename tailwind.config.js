@@ -11,9 +11,8 @@ export default {
         Roboto: 'Roboto'
       },
       backgroundColor: {
-        pblack: 'black',
-        mblack: '#111',
-        lblack: '#222'
+        mblack: 'rgb(10, 10, 10)',
+        lblack: 'rgb(22, 22, 22)'
 
       },
       colors: {

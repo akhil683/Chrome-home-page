@@ -8,11 +8,11 @@ function App() {
   return (
    <div>
       {/* <Header /> */}
-    <div className="flex flex-wrap">
+    <div className="grid md:grid-cols-2 grid-cols-1">
       <MostUsed />
       <Sources />
-      <Tech />
     </div>
+    <Tech />
    </div>
   )
 }
