@@ -6,8 +6,8 @@ const Tech = () => {
       url: 'https://github.com/akhil683'
     },
     {
-      name: 'Youtube',
-      url: 'https://www.youtube.com/'
+      name: 'Redux Toolkit',
+      url: 'https://redux-toolkit.js.org/introduction/getting-started'
     },
     {
       name: 'Typing',

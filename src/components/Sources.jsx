@@ -3,27 +3,27 @@ const Sources = () => {
   const resources = [
     {
       name: 'LearnWeb3',
-    url: ''
-    },
-    {
-      name: 'Alchemy',
-      url: ''
-    },
-    {
-      name: 'GitHub Star',
-      url: ''
+      url: 'https://learnweb3.io/degrees/'
     },
     {
       name: 'Udemy',
-      url: ''
+      url: 'https://www.udemy.com/home/my-courses/learning/'
+    },
+    {
+      name: 'Alchemy',
+      url: 'https://university.alchemy.com/home'
     },
     {
       name: 'Scrimba Router',
-      url: ''
+      url: 'https://scrimba.com/learn/reactrouter6'
     },
     {
       name: 'Code Academy',
-      url: ''
+      url: 'https://www.codecademy.com/learn'
+    },
+    {
+      name: 'GitHub Star',
+      url: 'https://github.com/akhil683?tab=stars'
     },
   ]
   
