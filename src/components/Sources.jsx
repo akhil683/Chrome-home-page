@@ -33,6 +33,7 @@ const Sources = () => {
       <div className=" grid grid-cols-2 gap-6">
       { resources.map((app) => (
             <a 
+              key={app.name}
               className="bg-lblack p-main text-center rounded-3xl text-slate-300 tracking-wide  duration-300 hover:bg-violet-800 font-semibold text-lg md:text-xl lg:text-2xl" 
               href={app.url}>
                 {app.name}
