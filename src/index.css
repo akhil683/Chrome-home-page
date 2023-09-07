@@ -15,7 +15,9 @@ body {
   background-color: black;
   color: #fff;
   font-family: 'Montserrat';
-  overflow: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 * {
   margin: 0;
